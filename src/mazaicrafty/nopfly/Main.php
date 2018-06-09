@@ -175,7 +175,7 @@ class Main extends PluginBase implements Listener{
                     return true;
 
                     case "eng":
-                    $sender->sendMessage((self::PREFIX . COLOR::YELLOW . "Current settings:\n" . COLOR::WHITE . "Flykick " . $flykick . COLOR::WHITE . "The way to punish the target " . $punishment);
+                    $sender->sendMessage(self::PREFIX . COLOR::YELLOW . "Current settings:\n" . COLOR::WHITE . "Flykick " . $flykick . COLOR::WHITE . "The way to punish the target " . $punishment);
                     return true;
                 }
             }
