@@ -74,9 +74,6 @@ class Main extends PluginBase implements Listener{
                 return true;
             }
 
-            default:
-            return false;
-
             if (!(isset($args[0]))) return false;
 
             switch ($args[0]){
